@@ -55,7 +55,7 @@
 
   /* header */
   header {
-    min-height: 100vh;
+    height: 110vh;
     color: var(--color-white);
     overflow: hidden;
     padding: 0 !important;
@@ -763,6 +763,10 @@
 
   .contact-content-con .left-contact {
     flex: 2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .contact-content-con .left-contact h4 {
@@ -1032,6 +1036,7 @@
 
     .about-stats{
       grid-template-columns: repeat(1,1fr);
+      
     }
     .about-container .right-about {
       grid-template-columns: repeat(1, 1fr);
@@ -1050,10 +1055,11 @@
     .timeline {
       grid-template-columns: repeat(1, 1fr);
       padding-bottom: 6rem;
+      transform: translateX(6%)
     }
 
     .section {
-      padding: 2rem 2.5rem !important;
+      padding: 2rem 1.5rem !important;
     }
 
     .about-stats .progress-bars {
@@ -1073,6 +1079,10 @@
 
     .contact-content-con {
       flex-direction: column;
+    }
+
+    .contact-content-con .left-contact .submit-btn{
+      transform: translateX(-14%);
     }
 
     .contact-content-con .right-contact {
@@ -1190,6 +1200,9 @@
       grid-template-columns: repeat(2, 1fr);
     }
 
+    .about-container .about-item{
+      height: 40rem;
+    }
     .header-content .right-header {
       padding-right: 9rem;
     }
