@@ -1004,6 +1004,9 @@
       text-align: center;
       padding-top: 3rem;
     }
+    .right-header .btn-con{
+      transform: translateX(-15%);
+    }
 
     .header-content .left-header {
       display: block;
@@ -1029,7 +1032,6 @@
       width: 50px;
       height: 50px;
     }
-
     .about-container {
       grid-template-columns: repeat(1, 1fr);
     }
@@ -1055,17 +1057,21 @@
       transform: translateX(20%);
     }
     .stat-title{
-      transform: translateX(30%);
+      transform: translateX(25%);
     }
 
     .timeline {
       grid-template-columns: repeat(1, 1fr);
       padding-bottom: 6rem;
-      transform: translateX(40%);
+      transform: translateX(25%);
     }
 
     .section {
       padding: 2rem 1.5rem !important;
+    }
+    .about .main-title{
+      margin-left: 6rem;
+     
     }
 
     .about-stats .progress-bars {
@@ -1079,11 +1085,20 @@
       margin-top: 1rem;
     }
 
+    #portfolio .main-title{
+      margin-left: -2rem;
+    }
+    .port-text{
+      margin-top: 2rem;
+    }
     .blogs {
       grid-template-columns: repeat(1, 1fr);
       padding-bottom: 6rem;
     }
 
+    .contact-container .main-title{
+      margin-left: -2rem;
+    }
     .contact-content-con {
       flex-direction: column;
     }
