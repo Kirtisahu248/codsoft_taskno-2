@@ -1051,11 +1051,17 @@
     .about-container .left-about p {
       padding-left: 0;
     }
+    .tech-bars{
+      transform: translateX(20%);
+    }
+    .stat-title{
+      transform: translateX(30%);
+    }
 
     .timeline {
       grid-template-columns: repeat(1, 1fr);
       padding-bottom: 6rem;
-      transform: translateX(6%)
+      transform: translateX(40%);
     }
 
     .section {
@@ -1064,6 +1070,7 @@
 
     .about-stats .progress-bars {
       grid-template-columns: repeat(1, 1fr);
+      transform: translateX(21%);
     }
 
     .portfolios {
